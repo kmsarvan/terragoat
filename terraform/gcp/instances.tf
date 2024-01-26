@@ -46,7 +46,7 @@ resource "google_compute_disk" "unencrypted_disk" {
     yor_trace            = "bf87b7d7-a9d8-4f03-a0d4-8a4cbb647d03"
   }
 }
-resource "google_compute_disk_1" "unencrypted_disk" {
+resource "google_compute_disk1" "unencrypted_disk" {
   name = "terragoat-${var.environment}-disk"
   labels = {
     git_commit           = "2bdc0871a5f4505be58244029cc6485d45d7bb8e"
